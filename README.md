@@ -1,164 +1,101 @@
-Contribution: 2010-11-12 20:00
+# Mern-stack-delivery-app
 
-Contribution: 2010-11-12 20:01
+![image](https://drive.google.com/uc?export=view&id=1suIMST1GKIYOxW_FYcWQKE7r2XvJx1qr)
+![image](https://drive.google.com/uc?export=view&id=16KEyxTuiZ4JsuUrOT2UDAYqG9J-PNdQD)
 
-Contribution: 2010-11-12 20:02
+### state: prone to new features and code refactoring.
 
-Contribution: 2010-11-12 20:03
+### Demo: https://fast-food-delivery-app.herokuapp.com/
 
-Contribution: 2010-11-12 20:04
+### To SEE admin features
 
-Contribution: 2010-11-18 20:00
+email: moderator@localhost.com
+password : moderator
 
-Contribution: 2010-11-19 20:00
+## Environment variables
 
-Contribution: 2010-11-23 20:00
+- HOST
+- MONGODB_URI
+- JWT_SECRET_KEY
+- JWT_EMAIL_CONFIRMATION_KEY
+- JWT_RESET_FORGOTTEN_PASSWORD_KEY
 
-Contribution: 2010-11-23 20:01
+### oAuth2
 
-Contribution: 2010-11-23 20:02
+- OAUTH_USER
+- OAUTH_CLIENT_ID
+- OAUTH_CLIENT_SECRET
+- OAUTH_REFRESH_TOKEN
 
-Contribution: 2010-11-23 20:03
+### cloudinary
 
-Contribution: 2010-11-25 20:00
+- CLOUDINARY_NAME
+- CLOUDINARY_KEY
+- CLOUDINARY_SECRET
 
-Contribution: 2010-11-25 20:01
+## Backend
 
-Contribution: 2010-11-25 20:02
+### tecnologies:
 
-Contribution: 2010-11-25 20:03
+- Node.js/ Express
+- MongoDB / Mongoose
+- Json WTK
+- oAuth2
+- Nodemailer
+- Multer
+- Cloudinary
+- socket.io
 
-Contribution: 2010-11-25 20:04
+### Features:
 
-Contribution: 2010-11-29 20:00
+- Authentication using Json Web Tokens
 
-Contribution: 2010-11-29 20:01
+- password encryption using bcrypt library
 
-Contribution: 2010-11-29 20:02
+- account validation , and functional contact form using Nodemailer and googleapis oAuth2
 
-Contribution: 2010-11-29 20:03
+- Access of routes base authorization and permissions.
 
-Contribution: 2010-12-03 20:00
+- Media storage using multer library and cloudinary service.
 
-Contribution: 2010-12-03 20:01
+- Real time new orders and order actualization notifications.
 
-Contribution: 2010-12-03 20:02
+- **request supported** : GET, PUT, POST, DELETE
 
-Contribution: 2010-12-07 20:00
+- **routes:** USERS , PRODUCTS, CATEGORIES, ORDERS,NEWSLETTER, CONTACT, AUTH (Login/Sing Up/forgotPassword/resetPassword),
 
-Contribution: 2010-12-07 20:01
+- initial mongoose set up with : default categories , roles and admin and moderator users.
 
-Contribution: 2010-12-07 20:02
+## Frontend
 
-Contribution: 2010-12-10 20:00
+### Technologies and tools:
 
-Contribution: 2010-12-14 20:00
+- React.js
+- Style-Components
+- React-hook-form
+- React-router-dom
+- React hooks
+- Swiper
+- Socket.io-client
 
-Contribution: 2010-12-14 20:01
+### Features:
 
-Contribution: 2010-12-14 20:02
-
-Contribution: 2010-12-14 20:03
-
-Contribution: 2010-12-14 20:04
-
-Contribution: 2010-12-20 20:00
-
-Contribution: 2010-12-20 20:01
-
-Contribution: 2010-12-21 20:00
-
-Contribution: 2010-12-21 20:01
-
-Contribution: 2010-12-21 20:02
-
-Contribution: 2010-12-21 20:03
-
-Contribution: 2010-12-21 20:04
-
-Contribution: 2010-12-30 20:00
-
-Contribution: 2010-12-30 20:01
-
-Contribution: 2010-12-30 20:02
-
-Contribution: 2010-12-30 20:03
-
-Contribution: 2011-01-03 20:00
-
-Contribution: 2011-01-03 20:01
-
-Contribution: 2011-01-03 20:02
-
-Contribution: 2011-01-03 20:03
-
-Contribution: 2011-01-06 20:00
-
-Contribution: 2011-01-06 20:01
-
-Contribution: 2011-01-06 20:02
-
-Contribution: 2011-01-06 20:03
-
-Contribution: 2011-01-07 20:00
-
-Contribution: 2011-01-07 20:01
-
-Contribution: 2011-01-07 20:02
-
-Contribution: 2011-01-07 20:03
-
-Contribution: 2011-01-07 20:04
-
-Contribution: 2011-01-10 20:00
-
-Contribution: 2011-01-10 20:01
-
-Contribution: 2011-01-12 20:00
-
-Contribution: 2011-01-12 20:01
-
-Contribution: 2011-01-12 20:02
-
-Contribution: 2011-01-12 20:03
-
-Contribution: 2011-01-12 20:04
-
-Contribution: 2011-01-14 20:00
-
-Contribution: 2011-01-14 20:01
-
-Contribution: 2011-01-14 20:02
-
-Contribution: 2011-01-18 20:00
-
-Contribution: 2011-01-19 20:00
-
-Contribution: 2011-01-19 20:01
-
-Contribution: 2011-01-24 20:00
-
-Contribution: 2011-01-24 20:01
-
-Contribution: 2011-02-01 20:00
-
-Contribution: 2011-02-01 20:01
-
-Contribution: 2011-02-03 20:00
-
-Contribution: 2011-02-03 20:01
-
-Contribution: 2011-02-03 20:02
-
-Contribution: 2011-02-03 20:03
-
-Contribution: 2011-02-08 20:00
-
-Contribution: 2011-02-08 20:01
-
-Contribution: 2011-02-08 20:02
-
-Contribution: 2011-02-08 20:03
-
-Contribution: 2011-02-08 20:04
-
+- Interaction with the backend through API Rest .
+- Unit test examples.
+- Lazy Load components and code splitting.
+- Products and orders section skeletons.
+- Custom Auto-played sliders with dot indicators and controls.
+- Latest products carrousel using swiper.js library.
+- Navbar responsive and animated .
+- Complete authentication system width signup/email validation/login/ forgot password support.
+- Access to Public and Private routes base on roles.
+- Functional contact section with form validation.
+- Loading modal and loading form indicators.
+- Shopping cart.
+- Editable User profile.
+- Products and orders section with sorter, filter and search bar.
+- URL able to storage the user search
+- pagination.
+- User orders tracker page.
+- Real time order notifications.
+- Dashboard with users, categories, orders and products management system.
